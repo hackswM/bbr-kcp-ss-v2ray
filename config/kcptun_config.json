@@ -1,0 +1,11 @@
+{
+    "listen": ":45678",
+    "target": "127.0.0.1:12948",
+    "key": "baidu.com",
+    "crypt": "aes",
+    "mode": "fast2",
+    "mtu": 1350,
+    "sndwnd": 10240,
+    "rcvwnd": 10240,
+    "nocomp": false
+}
