@@ -50,6 +50,6 @@ RUN apk add supervisor \
 COPY /config/supervisord.conf /etc
 COPY /config/process.conf /etc/supervisord.d
 STOPSIGNAL SIGTERM
-EXPOSE 8888 6666 45678
+EXPOSE 8388 10086 45678/udp
 CMD ["supervisord", "--nodaemon", "--configuration", "/etc/supervisord.conf"]
 
